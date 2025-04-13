@@ -6,6 +6,14 @@ This repository provides the [Phorest Desktop](https://www.phorest.com/us/downlo
 
 To install Phorest Desktop, follow these steps:
 
+**Tap this repository**:
+
+Before you can install, you'll need to tap this repository. This will add Phorest casks to your Homebrew.
+
+```bash
+brew tap jarihu/homebrew-phorest
+```
+
 ### 1. Install the Universal Version
 
 The **universal version** is recommended, as it works on both Intel and Apple Silicon Macs. You can install it with:
@@ -65,6 +73,8 @@ To upgrade the universal version, run:
 ```bash
 brew upgrade --cask phorest-desktop
 ```
+
+For Intel (x64) Macs, upgrade using:
 
 ```bash
 brew upgrade --cask phorest-desktop-x64
